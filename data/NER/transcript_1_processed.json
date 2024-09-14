@@ -1,0 +1,54 @@
+{
+  "transcript": "Hello this is 911 I need help there.\nBeen an accident, a car crashed into a pole and the driver looks unconscious. I'm not sure if they're breathing. I checked and I don't think they are. There might be someone else in the car but I can't see clearly. I'm in a safe location but I don't know what to do. Please send help quickly.\nSo you can get this summer.\n",
+  "azure_entities": [
+    {
+      "text": "911",
+      "category": "Quantity",
+      "subcategory": "Number",
+      "confidence_score": 0.8
+    },
+    {
+      "text": "accident",
+      "category": "Event",
+      "subcategory": null,
+      "confidence_score": 0.93
+    },
+    {
+      "text": "car",
+      "category": "Product",
+      "subcategory": null,
+      "confidence_score": 0.97
+    },
+    {
+      "text": "driver",
+      "category": "PersonType",
+      "subcategory": null,
+      "confidence_score": 0.99
+    },
+    {
+      "text": "car",
+      "category": "Product",
+      "subcategory": null,
+      "confidence_score": 0.95
+    },
+    {
+      "text": "this summer",
+      "category": "DateTime",
+      "subcategory": "DateRange",
+      "confidence_score": 1.0
+    }
+  ],
+  "911_entities": {
+    "emergency_type": "medical",
+    "caller_info": {
+      "name": "911 I need help there"
+    },
+    "vehicle_description": {
+      "description": "crashed into a pole and the driver looks",
+      "license_plate": "unconscious"
+    },
+    "injuries": [
+      "unconscious"
+    ]
+  }
+}
